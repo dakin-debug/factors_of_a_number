@@ -1,0 +1,6 @@
+# A program that finds and prints the factors of a user-given positive integer
+input_word = int(input("Enter a positive integer: "))
+
+for i in range(1, input_word):   # include the number itself
+    if input_word % i == 0:
+        print (f"{i} is a factor of {input_word}")
